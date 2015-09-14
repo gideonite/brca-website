@@ -159,6 +159,16 @@ var Home = React.createClass({
 		));
 		return (
 			<Grid>
+                <Row className="landingpage-about-box">
+					<Col md={15}>
+
+                    <div id='landing-page-about'>
+                        <RawHTML html={content.pages.home} />
+            <p> &nbsp; &nbsp; &nbsp; &#8595; </p>
+                    </div>
+            
+					</Col>
+				</Row>
 				<Row>
 					<Col md={8} mdOffset={2}>
                         <div className='text-center'>
@@ -166,11 +176,7 @@ var Home = React.createClass({
                         </div>
                     </Col>
 				</Row>
-				<Row>
-					<Col md={8} mdOffset={2}>
-						<RawHTML html={content.pages.home} />
-					</Col>
-				</Row>
+				
 				<Row className='logo-block'>
 					<Col md={6} mdOffset={3}>
 						<ul className='logos'>
