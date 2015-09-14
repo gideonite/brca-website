@@ -5,3 +5,6 @@ env*
 npm-debug.log
 python_modules/
 *.swp
+
+# emacs
+*\~undo-tree\~
